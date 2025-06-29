@@ -19,7 +19,7 @@ spec:
         - containerPort: 5000
         env:
         - name: SUPABASE_URL
-          value: "postgresql://postgres:MyApp%40123@db.vpfbejdjpzcckaqxflgi.supabase.co:5432/postgres"
+          value: "postgresql://MySecure_12345@db.vpfbejdjpzcckaqxflgi.supabase.co:5432/postgres"
 ---
 apiVersion: v1
 kind: Service
